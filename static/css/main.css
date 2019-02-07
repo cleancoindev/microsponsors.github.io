@@ -7294,15 +7294,40 @@ section.ms-bids {
 @media screen and (max-width: 500px) {
 
   .ms-index__body .hero .hero-body .container--initial-flow {
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
 
-  .ms-index__body .hero .hero-body .container--initial-flow .column.is-1 {
+  .ms-index__body .hero .hero-body .container--initial-flow .column.is-1,
+  .ms-index__body .hero .hero-body .container--initial-flow .column.is-2 {
     display: none;
+  }
+
+  .ms-index__body .hero .hero-body .container--initial-flow .column.is-4 {
+    margin-bottom: 1rem;
+    height: 36vh;
   }
 
   .hero .hero-body .container--initial-flow .column.has-border p {
     margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .hero .hero-body .container--initial-flow .column.has-border .ms-button-container {
+    bottom: 1.5rem;
+  }
+
+  .hero .hero-body .container--initial-flow .column.has-border .button {
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    border: none;
+  }
+
+  .hero .hero-body .container--initial-flow .column.has-border .button strong {
+    border-bottom: 1px solid #00edb8;
+  }
+
+  .hero .hero-body .container--initial-flow .column.has-border .title.is-3 {
+    font-size: 1.5rem;
   }
 
   .ms-index__body .hero .hero-body .container--about .is-3,
