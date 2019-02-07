@@ -7292,6 +7292,21 @@ section.ms-bids {
       height: 30vh; } }
 
 @media screen and (max-width: 500px) {
+
+  .ms-index__body .hero .hero-body .container--initial-flow {
+    margin-top: 5vh;
+  }
+
+  .ms-index__body .hero .hero-body .container--initial-flow .column.is-1 {
+    display: none;
+  }
+
+  .hero .hero-body .container--initial-flow .column.has-border p {
+    margin-top: 1rem;
+  }
+
   .ms-index__body .hero .hero-body .container--about .is-3,
   .ms-about__body .hero .hero-body .container--about .is-3 {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+  }
+}
