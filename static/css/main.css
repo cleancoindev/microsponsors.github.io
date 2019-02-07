@@ -7323,11 +7323,11 @@ section.ms-bids {
   }
 
   .hero .hero-body .container--initial-flow .column.has-border .button strong {
-    border-bottom: 1px solid #00edb8;
+    border-bottom: none;
   }
 
   .hero .hero-body .container--initial-flow .column.has-border .title.is-3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .ms-index__body .hero .hero-body .container--about .is-3,
