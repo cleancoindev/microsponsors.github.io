@@ -7227,16 +7227,16 @@ section.ms-bids {
             color: #E80C7A; }
           .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-comments,
           .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-comments {
-            color: #00edb8; }
+            color: #209cee; }
           .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-expeditedssl,
           .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-expeditedssl {
             color: #FF980D; }
           .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-link,
           .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-link {
-            color: wheat; }
-          .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-sitemap,
-          .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-sitemap {
-            color: #FF0DFF; }
+            color: #999; }
+          .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-exchange-alt,
+          .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .fa-exchange-alt {
+            color: #00edb8; }
           .ms-about__body .hero .hero-body .container--about-boxes .columns .column.has-border .title,
           .ms-contact__body .hero .hero-body .container--about-boxes .columns .column.has-border .title {
             margin-top: 2rem; }
