@@ -1,28 +1,247 @@
-<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>microsponsors.io</title><meta name="description" content=""><link rel="stylesheet" href="static/css/main.css"><link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head><body class="ms-index__body">
-
-  <section class="hero">
-
-  <div class="navbar-menu navbar-menu--ao">
-    <div class="navbar-end">
-      <a class="navbar-item" href="about.html">About</a>
-      <a class="navbar-item" href="contact.html">Contact</a>
-    </div>
-  </div>
-
-  <div class="hero-body">
-      <div class="container">
-        <div class="ao-logo-container">
-          <h1 class="title"><img src="static/img/logo.svg" width="200" alt="microsponsors"/></h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>microsponsors.io</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="static/css/main.css">
+    <!-- Google Fonts/ TODO: replace this eventually for privacy's sake -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+    <!-- Font Awesome/ TODO: replace this eventually for privacy's sake -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  </head>
+  <body class="ms-index__body">
+    <section class="hero hero--homepage-top">
+      <div class="navbar-menu navbar-menu--ms">
+        <div class="navbar-end">
+          <span>Get early access + updates <em>&rarr;</em></span>
+          <a href="javascript: void(0);" id="ms-nav-btn-newsletter">
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
       </div>
+      <div class="hero-body">
+
+        <div class="container">
+          <div class="ms-logo-container">
+            <h1 class="title">
+              <img src="static/img/logo.svg" alt="microsponsors" />
+            </h1>
+          </div>
+        </div> <!-- /.container -->
+
+        <div class="container">
+          <h2 class="title is-2 is-size-3-mobile">
+            A peer-to-peer marketplace for sponsorships.
+          </h2>
+
+          <h3 class="title is-5 is-size-6-mobile">
+            We are building a fair and transparent auction-style marketplace. We help publishers auction ad slots directly to sponsors using tamper-proof blockchain technology.
+          </h3>
+
+          <div class="buttons">
+            <span class="button--early-access">
+              <a href="javascript: void(0);" id="ms-nav-btn-newsletter2">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <span><em>&larr;</em>Get early access + updates</span>
+            </span>
+            <a class="button is-medium button--more-details" id="ms-btn-more-details">
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div> <!-- /.hero-body -->
+    </section> <!-- /.hero -->
+
+    <!-- Microsponsors React App
+    <section class="ms-bids">
+      <div id="app" class="main"></div>
+    </section>
+    -->
+
+    <section class="section homepage-details" id="ms-homepage-details">
       <div class="container">
-        <h3 class="title" style="margin-top: 25vh;">Watch this space.</h3>
-        <p class="subtitle" style="text-align: center;">
-          <a href="about.html" style="color: #00edb8;">Find out more</a>
-        </p>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__fair"></div>
+          <h3 class="title is-4 is-size-6-mobile">Fair Marketplace</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Microsponsors will be a fair, neutral marketplace for sponsorships that eliminates waste, fraud and deceptive practices.</li>
+            <li class="is-5 is-size-7-mobile">Microsponsors will not compete against its own market's participants. Your business is yours.</li>
+            <li class="is-5 is-size-7-mobile">Our mission is to deliver top-tier marketing technology solutions on a level playing field for businesses and individuals alike, no matter the size of your audience.</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__p2p"></div>
+          <h3 class="title is-4 is-size-6-mobile">Peer-to-Peer</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Built on the <a href="https://0x.org" target="_blank">0x exchange protocol</a>, all transactions will be peer-to-peer and take place through a series of smart contracts on the Ethereum blockchain.</li>
+            <li class="is-5 is-size-7-mobile">In other words: No middlemen!</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__transparent"></div>
+          <h3 class="title is-4 is-size-6-mobile">Transparent</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Transparent auctions and bidding helps sponsors get the best Return on Investment, and helps creators get the right price for ad slots.</li>
+            <li class="is-5 is-size-7-mobile">Sponsors know <a href="https://www.theguardian.com/technology/2017/mar/25/google-youtube-advertising-extremist-content-att-verizon" target="_blank">exactly where and when</a> their spots run.</li>
+            <li class="is-5 is-size-7-mobile">Sponsors know exactly how much we charge, with no hidden fees or deceptive pricing.</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__privacy"></div>
+          <h3 class="title is-4 is-size-6-mobile">Privacy</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Privacy and respect for audiences, by design.</li>
+            <li class="is-5 is-size-7-mobile">GDPR-compliant out of the box, the toughest privacy standard on the planet.</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__instant"></div>
+          <h3 class="title is-4 is-size-6-mobile">Instant Payouts</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Creators and publishers will be able to cash-out their earnings any time.</li>
+            <li class="is-5 is-size-7-mobile">Instant transaction settlement. No waiting around!</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__fees"></div>
+          <h3 class="title is-4 is-size-6-mobile">Lower Fees</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Ethereum + 0x.org as a payment infrastructure means lower fees.</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__tamper"></div>
+          <h3 class="title is-4 is-size-6-mobile">Tamper-Proof</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Creators and sponsors will be digitally verified with a tamper-proof blockchain registry.</li>
+            <li class="is-5 is-size-7-mobile">All auctions and bids come from sponsors who are verified with tamper-proof cryptographic tools.</li>
+          </ul>
+        </div>
+
+        <div class="homepage-details__detail">
+          <div class="detail-icon detail-icon__0x"></div>
+          <h3 class="title is-4 is-size-6-mobile">0x Ecosystem</h3>
+          <ul>
+            <li class="is-5 is-size-7-mobile">Proud grantee of the <a href="https://blog.0xproject.com/announcing-the-0x-ecosystem-acceleration-program-89d1cb89d565" target="_blank">0x.org Ecosystem Accelerator Program</a>. Built on top of the Ethereum blockchain, 0x is dedicated to the free flow of value on the internet.</li>
+            <li class="is-5 is-size-7-mobile">The <a href="https://blog.0xproject.com/relayer-report-20-0x-roadmap-and-launch-season-f807356e460a" target="_blank">0x roadmap</a> will allow Microsponsors to scale in new and innovative ways. <a href="javascript: void(0);" id="ms-stay-tuned"><em>Stay tuned.</em></a></li>
+          </ul>
+        </div>
+
       </div>
-  </div>
+    </section>
 
-  </section>
+    <section class="hero hero--homepage-foundation">
+      <div class="hero-body">
+        <div class="container">
 
-  <section class="ms-bids"><div id="app" class="main"></div></section><footer class="footer"><div class="content"><div class="columns"><div class="column is-1"></div><div class="column is-5 column--footer-links"><div class="ao-title-container"><img src="static/img/logo.svg" width="200" alt="microsponsors"/></div><p><a href="about.html">About</a><br/><a href="contact.html">Contact</a></p></div></div></div></footer></body></html>
+            <h3 class="title is-6 is-size-6-mobile">
+              Microsponsors is being designed around these foundational principles:
+            </h3>
+            <ul>
+              <li class="title is-5 is-size-6-mobile">
+                <span>1.</span> The value generated by publishers and creators should be captured by publishers and creators.
+              </li>
+              <li class="title is-5 is-size-6-mobile">
+                <span>2.</span> All sponsors, small and large, have the right to know exactly where their marketing budget is used.
+              </li>
+              <li class="title is-5 is-size-6-mobile">
+                <span>3.</span> Blockchain apps are well-suited to eliminating fraud and waste in the ad tech industry.
+              </li>
+              <li class="title is-5 is-size-6-mobile">
+                <span>4.</span> Privacy is a human right.
+              </li>
+            </ul>
+            <h4 class="title is-2 is-size-3-mobile">
+              This is <span>Web 3.0</span>
+            </h4>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="ms-footer">
+      <div class="content">
+        <div class="columns">
+          <div class="column is-1"></div>
+          <div class="column is-9 column--footer-links">
+
+          <i class="fas fa-envelope"></i>
+          <!-- Newsletter Widget -->
+
+          <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/3Zej/h9N" width="100%"></iframe>
+
+          <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+
+          <!-- /Newsletter Widget -->
+
+            <div class="ms-title-container">
+              <img src="static/img/logo.svg" width="200" alt="microsponsors" />
+            </div>
+           <div class="ms-title-container ms-title-container--nn">
+            <p>Microsponsors is a division of: </p>
+             <img src="static/img/logo-niche-networks.svg" width="200" alt="niche networks" />
+           </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      'use strict';
+      document.addEventListener('DOMContentLoaded', function () {
+        var $w = $('window');
+        var $html = $('html, body');
+
+        // Buttons + Scrolling
+        var $btnMoreDetails = $('#ms-btn-more-details');
+        var $homepageDetails = $('#ms-homepage-details')
+        var $navBtnNewsletter = $('#ms-nav-btn-newsletter');
+        var $navBtnNewsletter2 = $('#ms-nav-btn-newsletter2');
+        var $linkStayTuned = $('#ms-stay-tuned');
+        var $footer = $('#ms-footer');
+
+        $navBtnNewsletter.click(function (e) {
+          e.preventDefault();
+          animateScroll($footer);
+        });
+
+        $navBtnNewsletter2.click(function (e) {
+          e.preventDefault();
+          animateScroll($footer);
+        });
+
+        $btnMoreDetails.click(function (e) {
+          e.preventDefault();
+          animateScroll($homepageDetails);
+        });
+
+        $linkStayTuned.click(function(e) {
+          e.preventDefault();
+          animateScroll($footer);
+        });
+
+        function animateScroll($el) {
+          $html.animate({
+            scrollTop: $el.offset().top
+          }, 750);
+        }
+      });
+    </script>
+    <script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+
+
+  </body>
+</html>
