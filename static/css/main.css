@@ -6930,7 +6930,10 @@ body {
 
 .hero.hero--homepage-foundation {
   background: #fff url("../img/homepage-foundation-bg2.svg") top center repeat-y;
-  background-size: 66%; }
+  background-size: 66%;
+  height: initial;
+  margin-bottom: 2.5rem;
+  }
   .hero.hero--homepage-foundation .hero-body {
     color: #000033;
     text-align: center; }
