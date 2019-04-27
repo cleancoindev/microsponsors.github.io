@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Quicksand';
-  src: url("static/fonts/quicksand500.woff2"); }
+  src: url("../fonts/quicksand500.woff2"); }
 
 @font-face {
   font-family: 'Quicksand';
   font-weight: bold;
-  src: url("static/fonts/quicksand700.woff2"); }
+  src: url("../fonts/quicksand700.woff2"); }
 
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
@@ -6887,7 +6887,7 @@ body {
   padding-top: 1rem; }
 
 .hero.hero--homepage-top {
-  background: #fefefe url("static/img/homepage-top-bg3.svg") center bottom no-repeat;
+  background: #fefefe url("../img/homepage-top-bg3.svg") center bottom no-repeat;
   background-size: 100%; }
   .hero.hero--homepage-top .hero-body {
     height: 100vh; }
@@ -6971,7 +6971,7 @@ body {
 section.homepage-details {
   border-top: 1rem solid #000033;
   padding-top: 6rem;
-  background: #fefefe url("static/img/homepage-foundation-bg2.svg") top center repeat-y;
+  background: #fefefe url("../img/homepage-foundation-bg2.svg") top center repeat-y;
   background-size: 66%;
   text-align: center; }
   section.homepage-details .homepage-details__detail {
@@ -7007,21 +7007,21 @@ section.homepage-details {
       background-repeat: no-repeat;
       overflow: hidden; }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__fair {
-        background-image: url("static/img/icon-fair.svg"); }
+        background-image: url("../img/icon-fair.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__transparent {
-        background-image: url("static/img/icon-transparent.svg"); }
+        background-image: url("../img/icon-transparent.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__p2p {
-        background-image: url("static/img/icon-p2p.svg"); }
+        background-image: url("../img/icon-p2p.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__privacy {
-        background-image: url("static/img/icon-privacy.svg"); }
+        background-image: url("../img/icon-privacy.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__instant {
-        background-image: url("static/img/icon-instant.svg"); }
+        background-image: url("../img/icon-instant.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__fees {
-        background-image: url("static/img/icon-fees.svg"); }
+        background-image: url("../img/icon-fees.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__tamper {
-        background-image: url("static/img/icon-chain.svg"); }
+        background-image: url("../img/icon-chain.svg"); }
       section.homepage-details .homepage-details__detail .detail-icon.detail-icon__0x {
-        background-image: url("static/img/icon-0x.svg"); }
+        background-image: url("../img/icon-0x.svg"); }
 
 .ms-overlay {
   z-index: 100;
