@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>microsponsors.io</title>
-    <meta name="description" content="">
-    <link rel="stylesheet" href="static/css/main.css">
-    <!-- Google Fonts/ TODO: replace this eventually for privacy's sake -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
-    <!-- Font Awesome/ TODO: replace this eventually for privacy's sake -->
+    <meta name="description" content="Microsponsors is a peer-to-peer marketplace for sponsorships.">
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Awesome / TODO load this locally for privacy's sake -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body class="ms-index__body">
@@ -33,24 +31,35 @@
         </div> <!-- /.container -->
 
         <div class="container">
-          <h2 class="title is-2 is-size-3-mobile">
+          <h2 class="title is-2 is-size-4-mobile">
             A peer-to-peer marketplace for sponsorships.
           </h2>
 
-          <h3 class="title is-5 is-size-6-mobile">
-            We are building a fair and transparent auction-style marketplace. We help publishers auction ad slots directly to sponsors using tamper-proof blockchain technology.
+          <h3 class="title is-5 is-size-7-mobile">
+            We help creators and publishers sell ad slots directly to sponsors using tamper-proof blockchain technology in a fair and transparent auction-style marketplace.
           </h3>
 
-          <div class="buttons">
-            <span class="button--early-access">
-              <a href="javascript: void(0);" id="ms-nav-btn-newsletter2">
-                <i class="fas fa-envelope"></i>
+          <div class="buttons buttons--early-access">
+
+              <!-- desktop: -->
+              <a href="javascript: void(0);"
+                class="button is-medium button--more-details"
+                id="ms-btn-more-details">
+                <i class="fas fa-chevron-down"></i>
               </a>
-              <span><em>&larr;</em>Get early access + updates</span>
-            </span>
-            <a class="button is-medium button--more-details" id="ms-btn-more-details">
-              <i class="fas fa-chevron-down"></i>
-            </a>
+
+              <!-- mobile: -->
+              <a href="javascript: void(0);"
+                class="button button--early-access"
+                id="ms-nav-btn-newsletter2">
+                <span class="icon is-medium">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </a>
+              <span class="buttons--early-access__text">
+                <em>&larr;</em>Get early access + updates
+              </span>
+
           </div>
 
         </div>
@@ -147,8 +156,8 @@
       <div class="hero-body">
         <div class="container">
 
-            <h3 class="title is-6 is-size-6-mobile">
-              Microsponsors is being designed around these foundational principles:
+            <h3 class="title is-5 is-size-6-mobile">
+              Our core principles:
             </h3>
             <ul>
               <li class="title is-5 is-size-6-mobile">
