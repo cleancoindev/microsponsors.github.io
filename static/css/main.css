@@ -6839,7 +6839,8 @@ body {
       .navbar-menu--ms .navbar-end span em {
         color: #ff3860;
         font-style: normal; }
-    .navbar-menu--ms .navbar-end .fa-envelope {
+    .navbar-menu--ms .navbar-end .fa-envelope,
+    .navbar-menu--ms .navbar-end .fa-twitter {
       font-size: 2rem;
       color: #00edb8;
       background: #330099;
@@ -7348,7 +7349,8 @@ section.ms-bids {
       display: inline-flex; }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access {
       background: #330099; }
-      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-envelope {
+      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-envelope,
+      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-twitter {
         color: #00edb8; }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text {
       color: #000033;
