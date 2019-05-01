@@ -7382,6 +7382,12 @@ section.ms-bids {
   .ms-index__body .hero .hero-body .container--about .is-3 {
     font-size: 1.5rem; } }
 
+@media screen and (min-width: 1024px) and (max-height: 768px) {
+  .hero.hero--homepage-top {
+    background: #fefefe url("../img/homepage-top-bg3.svg") center 60vh no-repeat; } }
+
 @media screen and (max-height: 425px) {
+  .ms-index__body .hero.hero--homepage-top {
+    background: #fefefe url("../img/homepage-top-bg3.svg") center 80vh no-repeat; }
   .ms-index__body .hero .hero-body {
     height: initial; } }
