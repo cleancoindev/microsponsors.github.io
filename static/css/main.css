@@ -6929,7 +6929,7 @@ body {
 
 .hero.hero--homepage-foundation {
   background-color: #fefefe;
-  border-top: 1rem solid #000033; }
+  border-top: 1rem solid #330099; }
   .hero.hero--homepage-foundation .hero-body {
     color: #000033;
     text-align: center;
@@ -6970,7 +6970,7 @@ body {
           box-shadow: 5px 5px 5px #999; }
 
 section.homepage-details {
-  border-top: 1rem solid #000033;
+  border-top: 1rem solid #330099;
   padding-top: 6rem;
   background: #fefefe url("../img/homepage-foundation-bg2.svg") top center repeat-y;
   background-size: 66%;
