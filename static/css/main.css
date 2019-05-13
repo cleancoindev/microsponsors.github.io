@@ -6913,6 +6913,8 @@ body {
       line-height: 1.75rem;
       text-align: left;
       color: #330099; }
+    .hero.hero--homepage-top .hero-body h3.title span {
+      color: #999; }
     .hero.hero--homepage-top .hero-body .buttons {
       margin-top: 2.5rem;
       text-align: left;
