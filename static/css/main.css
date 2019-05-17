@@ -7390,7 +7390,7 @@ section.ms-bids {
   .ms-index__body .hero .hero-body .container--about .is-3 {
     font-size: 1.5rem; }
   .ms-index__body .hero .hero-body .icons--0x-eth {
-    bottom: 2rem;
+    bottom: 4rem;
     right: 2rem;
     width: 100px; } }
 
@@ -7399,6 +7399,6 @@ section.ms-bids {
     height: initial;
     padding-bottom: 10rem; }
     .ms-index__body .hero .hero-body .icons--0x-eth {
-      bottom: 2rem;
+      bottom: 4rem;
       right: 2rem;
       width: 100px; } }
