@@ -6832,7 +6832,7 @@ body {
   .navbar-menu--ms .navbar-end {
     margin-right: 5vw; }
     .navbar-menu--ms .navbar-end span {
-      color: #000033;
+      color: #fff;
       line-height: 3rem;
       display: inline-block;
       margin-right: 0.5rem; }
@@ -6843,7 +6843,7 @@ body {
     .navbar-menu--ms .navbar-end .fa-twitter {
       font-size: 2rem;
       color: #00edb8;
-      background: #330099;
+      background: transparent;
       padding: 0.5rem; }
     .navbar-menu--ms .navbar-end .navbar-item {
       margin-right: 5px;
@@ -6852,7 +6852,7 @@ body {
       font-size: 0.9rem;
       letter-spacing: 0.05rem;
       font-weight: bold;
-      border-bottom: 3px solid #3300cc; }
+      border-bottom: 3px solid #9966ff; }
       .navbar-menu--ms .navbar-end .navbar-item:hover, .navbar-menu--ms .navbar-end .navbar-item:active {
         background: transparent; }
       .navbar-menu--ms .navbar-end .navbar-item:active {
@@ -6866,7 +6866,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem; }
   .navbar .navbar-item strong {
-    color: #ccc;
+    color: #8a8ab2;
     font-weight: normal; }
 
 .ms-label {
@@ -6885,11 +6885,17 @@ body {
   padding: 2px 5px; }
 
 .hero .hero-body {
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  position: relative; }
+  .hero .hero-body .icons--0x-eth {
+    position: absolute;
+    bottom: 6rem;
+    right: 4rem;
+    width: 150px; }
 
 .hero.hero--homepage-top {
-  background: #fefefe url("../img/homepage-top-bg3.svg") center bottom no-repeat;
-  background-size: 100%; }
+  background: #330099 url("../img/homepage-top-bg4.jpg");
+  background-size: cover; }
   .hero.hero--homepage-top .hero-body {
     height: 100vh; }
     .hero.hero--homepage-top .hero-body .ms-logo-container {
@@ -6907,14 +6913,14 @@ body {
       margin-top: 3rem;
       margin-bottom: 3rem;
       text-align: left;
-      color: #330099; }
+      color: white; }
     .hero.hero--homepage-top .hero-body h3.title {
       max-width: 66%;
       line-height: 1.75rem;
       text-align: left;
-      color: #330099; }
-    .hero.hero--homepage-top .hero-body h3.title span {
-      color: #999; }
+      color: #99aaff; }
+      .hero.hero--homepage-top .hero-body h3.title span {
+        color: #fff; }
     .hero.hero--homepage-top .hero-body .buttons {
       margin-top: 2.5rem;
       text-align: left;
@@ -6923,15 +6929,15 @@ body {
         text-decoration: none;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
-        background-color: #330099;
-        color: #00edb8; }
+        background: transparent;
+        color: #00edb8;
+        border: 3px solid #00edb8; }
       .hero.hero--homepage-top .hero-body .buttons .button--early-access,
       .hero.hero--homepage-top .hero-body .buttons .buttons--early-access__text {
         display: none; }
 
 .hero.hero--homepage-foundation {
-  background-color: #fefefe;
-  border-top: 1rem solid #330099; }
+  background-color: #e6e6fc; }
   .hero.hero--homepage-foundation .hero-body {
     color: #000033;
     text-align: center;
@@ -6943,27 +6949,28 @@ body {
       margin-left: auto;
       margin-right: auto; }
       .hero.hero--homepage-foundation .hero-body .container h3 {
-        color: #3300cc;
+        color: #9966ff;
         font-weight: bold;
         margin-top: 5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         text-align: left;
         padding-left: 1rem;
         border-left: 3px solid #ff3860; }
       .hero.hero--homepage-foundation .hero-body .container ul li {
         color: #000033;
         text-align: left;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         line-height: 1.5rem;
         margin-left: 1.5rem; }
       .hero.hero--homepage-foundation .hero-body .container ul span {
-        color: #3300cc;
+        color: #9966ff;
         margin-right: 0.25rem; }
       .hero.hero--homepage-foundation .hero-body .container h4 {
         margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 7.5rem;
         color: #000033;
-        text-align: left; }
+        text-align: left;
+        font-weight: bold; }
         .hero.hero--homepage-foundation .hero-body .container h4 span {
           background-color: #ff3860;
           color: #fff;
@@ -6972,9 +6979,8 @@ body {
           box-shadow: 5px 5px 5px #999; }
 
 section.homepage-details {
-  border-top: 1rem solid #330099;
   padding-top: 6rem;
-  background: #fefefe url("../img/homepage-foundation-bg2.svg") top center repeat-y;
+  background: #e6e6fc url("../img/homepage-foundation-bg2.svg") top center repeat-y;
   background-size: 66%;
   text-align: center; }
   section.homepage-details .homepage-details__detail {
@@ -7067,7 +7073,7 @@ section.ms-bids {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background-color: #3300cc; }
+    background-color: #9966ff; }
   section.ms-bids #app .ms-sponsor-slots-table-container .delete::before,
   section.ms-bids #app .ms-sponsor-slots-table-container .delete::after {
     background-color: #ff3860; }
@@ -7089,7 +7095,7 @@ section.ms-bids {
     section.ms-bids #app .ms-sponsor-slots-table-container .ms-slots-available span.ms-slots-available__label {
       color: #00edb8;
       padding: 2rem 1rem 0.5rem 1rem;
-      background-color: #3300cc;
+      background-color: #9966ff;
       font-size: 0.9rem;
       display: inline-block; }
       section.ms-bids #app .ms-sponsor-slots-table-container .ms-slots-available span.ms-slots-available__label i {
@@ -7100,7 +7106,7 @@ section.ms-bids {
       margin-bottom: 3rem;
       text-transform: initial;
       font-size: 0.8rem;
-      color: #ccc;
+      color: #8a8ab2;
       font-size: 0.8rem; }
   section.ms-bids #app .table.ms-properties-table {
     color: #fff;
@@ -7160,7 +7166,7 @@ section.ms-bids {
         padding-right: 10px;
         text-align: right;
         font-size: 0.9rem;
-        border: 1px solid #3300cc;
+        border: 1px solid #9966ff;
         background: white;
         color: #222; }
       section.ms-bids #app .table.ms-properties-table .ms-bid-now input::placeholder,
@@ -7174,12 +7180,12 @@ section.ms-bids {
       section.ms-bids #app .table.ms-sponsor-slots-table .ms-submit-bid button {
         font-size: 0.9rem;
         font-weight: normal;
-        color: #3300cc;
+        color: #9966ff;
         background-color: #00edb8; }
     section.ms-bids #app .table.ms-properties-table .ms-submit-bid button,
     section.ms-bids #app .table.ms-sponsor-slots-table .ms-submit-bid button {
       color: #00edb8;
-      background-color: #3300cc; }
+      background-color: #9966ff; }
     section.ms-bids #app .table.ms-properties-table .ms-bid-now,
     section.ms-bids #app .table.ms-sponsor-slots-table .ms-bid-now {
       width: 25%;
@@ -7207,7 +7213,7 @@ section.ms-bids {
           margin-bottom: 0.5rem;
           text-align: left;
           border-left: 3px solid #ff3860;
-          background: #3300cc;
+          background: #9966ff;
           width: 4rem;
           padding-left: 0.5rem;
           border-top-right-radius: 3px;
@@ -7253,7 +7259,7 @@ section.ms-bids {
       section.ms-bids #app .table.ms-properties-table .ms-bid-details .ms-label,
       section.ms-bids #app .table.ms-sponsor-slots-table .ms-bid-details .ms-label {
         margin-right: 0.25rem;
-        background-color: #3300cc;
+        background-color: #9966ff;
         color: #00edb8; }
         section.ms-bids #app .table.ms-properties-table .ms-bid-details .ms-label i,
         section.ms-bids #app .table.ms-sponsor-slots-table .ms-bid-details .ms-label i {
@@ -7269,7 +7275,7 @@ section.ms-bids {
 
 .footer {
   color: #fff;
-  background: #330099;
+  background: #000033;
   padding-top: 4rem;
   padding-bottom: 4rem; }
   .footer .column.column--footer-links .fas.fa-envelope {
@@ -7308,7 +7314,7 @@ section.ms-bids {
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     font-weight: bold;
-    border-bottom: 3px solid #3300cc;
+    border-bottom: 3px solid #9966ff;
     color: #fff;
     line-height: 1.5rem; }
     .footer .column.column--footer-links p a:hover, .footer .column.column--footer-links p a:active {
@@ -7350,46 +7356,49 @@ section.ms-bids {
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text {
       display: inline-flex; }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access {
-      background: #330099; }
+      background: transparent;
+      border: 2px solid #00edb8; }
       .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-envelope,
       .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-twitter {
         color: #00edb8; }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text {
-      color: #000033;
       margin-left: 0.5rem;
-      font-size: 0.75rem; }
+      font-size: 0.85rem; }
       .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text em {
-        margin-right: 0.5rem;
+        margin-right: 0.25rem;
         color: #ff3860;
         font-style: normal; }
   .ms-index__body .hero.hero--homepage-foundation .hero-body .container {
     width: 90%; }
     .ms-index__body .hero.hero--homepage-foundation .hero-body .container h3.title {
       margin-top: 2rem;
-      margin-bottom: 3.5rem; }
+      margin-bottom: 2rem; }
   .ms-index__body section.homepage-details .homepage-details__detail {
     min-height: 125px;
-    padding-left: 125px; }
+    padding-left: 115px; }
     .ms-index__body section.homepage-details .homepage-details__detail ul {
       margin-left: 0.75rem; }
     .ms-index__body section.homepage-details .homepage-details__detail .detail-icon {
-      width: 100px;
-      height: 100px;
-      background-size: 100px; }
+      width: 90px;
+      height: 90px;
+      background-size: 90px; }
   .footer {
     padding-top: 2rem;
     padding-bottom: 2rem; } }
 
 @media screen and (max-width: 500px) {
   .ms-index__body .hero .hero-body .container--about .is-3 {
-    font-size: 1.5rem; } }
-
-@media screen and (min-width: 1024px) and (max-height: 768px) {
-  .hero.hero--homepage-top {
-    background: #fefefe url("../img/homepage-top-bg3.svg") center 60vh no-repeat; } }
+    font-size: 1.5rem; }
+  .ms-index__body .hero .hero-body .icons--0x-eth {
+    bottom: 2rem;
+    right: 2rem;
+    width: 100px; } }
 
 @media screen and (max-height: 425px) {
-  .ms-index__body .hero.hero--homepage-top {
-    background: #fefefe url("../img/homepage-top-bg3.svg") center 80vh no-repeat; }
   .ms-index__body .hero .hero-body {
-    height: initial; } }
+    height: initial;
+    padding-bottom: 10rem; }
+    .ms-index__body .hero .hero-body .icons--0x-eth {
+      bottom: 2rem;
+      right: 2rem;
+      width: 100px; } }
