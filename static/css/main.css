@@ -6920,7 +6920,8 @@ body {
       text-align: left;
       color: #99aaff; }
       .hero.hero--homepage-top .hero-body h3.title span {
-        color: #fff; }
+        color: #fff;
+        display: block; }
     .hero.hero--homepage-top .hero-body .buttons {
       margin-top: 2.5rem;
       text-align: left;
