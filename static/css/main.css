@@ -6831,28 +6831,20 @@ body {
   top: 3.5rem; }
   .navbar-menu--ms .navbar-end {
     margin-right: 5vw; }
-    .navbar-menu--ms .navbar-end span {
-      color: #fff;
-      line-height: 3rem;
-      display: inline-block;
-      margin-right: 0.5rem; }
-      .navbar-menu--ms .navbar-end span em {
-        color: #ff3860;
-        font-style: normal; }
     .navbar-menu--ms .navbar-end .fa-envelope,
     .navbar-menu--ms .navbar-end .fa-twitter {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #00edb8;
       background: transparent;
       padding: 0.5rem; }
     .navbar-menu--ms .navbar-end .navbar-item {
       margin-right: 5px;
-      color: #000033;
+      color: #00edb8;
+      border-bottom: 3px solid #00edb8;
       text-decoration: none;
       font-size: 0.9rem;
       letter-spacing: 0.05rem;
-      font-weight: bold;
-      border-bottom: 3px solid #9966ff; }
+      font-weight: bold; }
       .navbar-menu--ms .navbar-end .navbar-item:hover, .navbar-menu--ms .navbar-end .navbar-item:active {
         background: transparent; }
       .navbar-menu--ms .navbar-end .navbar-item:active {
@@ -6975,7 +6967,7 @@ body {
         text-align: left;
         font-weight: bold; }
         .hero.hero--homepage-foundation .hero-body .container h4.title span {
-          background-color: #ff3860;
+          background-image: linear-gradient(to bottom, #ff3860, #330099);
           color: #fff;
           display: inline-block;
           padding: 0.25rem;
@@ -7313,12 +7305,12 @@ section.ms-bids {
   .footer .column.column--footer-links p a {
     display: inline-block;
     margin-bottom: 1rem;
-    color: #000033;
+    color: #00edb8;
+    border-bottom: 3px solid #00edb8;
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     font-weight: bold;
-    border-bottom: 3px solid #9966ff;
     color: #fff;
     line-height: 1.5rem; }
     .footer .column.column--footer-links p a:hover, .footer .column.column--footer-links p a:active {
