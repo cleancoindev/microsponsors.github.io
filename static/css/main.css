@@ -6832,7 +6832,8 @@ body {
   .navbar-menu--ms .navbar-end {
     margin-right: 5vw; }
     .navbar-menu--ms .navbar-end .fa-envelope,
-    .navbar-menu--ms .navbar-end .fa-twitter {
+    .navbar-menu--ms .navbar-end .fa-twitter,
+    .navbar-menu--ms .navbar-end .fa-medium-m {
       font-size: 1.5rem;
       color: #00edb8;
       background: transparent;
@@ -6925,13 +6926,12 @@ body {
         background: transparent;
         color: #00edb8;
         border: 3px solid #00edb8; }
-      .hero.hero--homepage-top .hero-body .buttons .button--early-access,
-      .hero.hero--homepage-top .hero-body .buttons .buttons--early-access__text {
+      .hero.hero--homepage-top .hero-body .buttons .button--early-access {
         display: none; }
 
 .hero.hero--homepage-foundation {
   border-top: 5px solid #000033;
-  background: #e6e6fc url(../img/bg-tile.svg) repeat;
+  background: #330099;
   background-size: 10px; }
   .hero.hero--homepage-foundation .hero-body {
     color: #000033;
@@ -6944,15 +6944,15 @@ body {
       margin-left: auto;
       margin-right: auto; }
       .hero.hero--homepage-foundation .hero-body .container h3.title {
-        color: #330099;
+        border-left: 3px solid #ff3860;
+        color: #fff;
         font-weight: bold;
         margin-top: 5rem;
         margin-bottom: 3rem;
         text-align: left;
-        padding-left: 1rem;
-        border-left: 3px solid #ff3860; }
+        padding-left: 1rem; }
       .hero.hero--homepage-foundation .hero-body .container ul li {
-        color: #000033;
+        color: #fff;
         text-align: left;
         margin-bottom: 3rem;
         line-height: 1.5rem;
@@ -6961,17 +6961,18 @@ body {
         color: #9966ff;
         margin-right: 0.25rem; }
       .hero.hero--homepage-foundation .hero-body .container h4.title {
+        color: #fff;
         margin-top: 5rem;
         margin-bottom: 7.5rem;
-        color: #000033;
         text-align: left;
         font-weight: bold; }
         .hero.hero--homepage-foundation .hero-body .container h4.title span {
-          background-image: linear-gradient(to bottom, #ff3860, #330099);
           color: #fff;
+          background-image: linear-gradient(to bottom, #ff3860, #330099);
           display: inline-block;
           padding: 0.25rem;
-          box-shadow: 5px 5px 5px #999; }
+          box-shadow: 5px 5px 5px #111;
+          border-radius: 5px; }
 
 section.homepage-details {
   padding-top: 6rem;
@@ -7269,6 +7270,7 @@ section.ms-bids {
         color: #00edb8; }
 
 .footer {
+  border-top: 5px solid #000033;
   color: #fff;
   background: #000033;
   background-image: linear-gradient(to bottom, #330099, #000033);
@@ -7348,22 +7350,15 @@ section.ms-bids {
     /* show for mobile: */ }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--more-details {
       display: none; }
-    .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access,
-    .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text {
+    .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access {
       display: inline-flex; }
     .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access {
       background: transparent;
       border: 2px solid #00edb8; }
       .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-envelope,
-      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-twitter {
+      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-twitter,
+      .ms-index__body .hero .hero-body .buttons.buttons--early-access .button--early-access .fa-medium-m {
         color: #00edb8; }
-    .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text {
-      margin-left: 0.5rem;
-      font-size: 0.85rem; }
-      .ms-index__body .hero .hero-body .buttons.buttons--early-access .buttons--early-access__text em {
-        margin-right: 0.25rem;
-        color: #ff3860;
-        font-style: normal; }
   .ms-index__body .hero.hero--homepage-foundation .hero-body .container {
     width: 90%; }
     .ms-index__body .hero.hero--homepage-foundation .hero-body .container h3.title {
