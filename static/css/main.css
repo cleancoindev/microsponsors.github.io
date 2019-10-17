@@ -8465,9 +8465,9 @@ section.ms-market {
     margin-top: 4rem; } }
 
 @media screen and (max-width: 500px) {
-  .ms-body .hero .hero-body .container--about .is-3 {
-    font-size: 1.5rem; }
-  .ms-body .hero .hero-body .icons--0x-eth {
+  .ms-body--index .hero .hero-body h3.title {
+    padding-right: 20px; }
+  .ms-body--index .hero .hero-body .icons--0x-eth {
     bottom: 4rem;
     right: 2rem;
     width: 100px; } }
