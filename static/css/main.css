@@ -7332,7 +7332,7 @@ html {
   background-color: #fbfbfb; }
 
 body {
-  background-color: #fbfbfb;
+  background-color: #f6f8fa;
   font-family: "Quicksand", sans-serif;
   position: relative;
   color: #fff; }
@@ -7543,7 +7543,7 @@ body {
     text-align: center;
     height: initial; }
     .hero.hero--homepage-foundation .hero-body .container {
-      width: 66%;
+      max-width: 550px;
       text-align: left;
       margin-top: 3rem;
       margin-bottom: 5rem;
@@ -7558,13 +7558,13 @@ body {
         margin-top: 5rem;
         margin-bottom: 3rem;
         text-align: left; }
-      .hero.hero--homepage-foundation .hero-body .container ul li {
+      .hero.hero--homepage-foundation .hero-body .container ol li {
         color: #fff;
         text-align: left;
         margin-bottom: 3rem;
         line-height: 1.5rem;
         margin-left: 1.5rem; }
-      .hero.hero--homepage-foundation .hero-body .container ul span {
+      .hero.hero--homepage-foundation .hero-body .container ol span {
         color: #9af;
         margin-right: 0.25rem; }
       .hero.hero--homepage-foundation .hero-body .container h4.title {
@@ -7581,7 +7581,7 @@ body {
 
 section.homepage-details {
   padding-top: 6rem;
-  background: #fbfbfb;
+  background: #f6f8fa;
   background-size: 66%;
   text-align: center; }
   section.homepage-details .homepage-details__detail {
@@ -7634,7 +7634,7 @@ section.homepage-details {
         background-image: url("../img/icon-0x.svg"); }
 
 .ms-body--market {
-  background: #fbfbfb; }
+  background: #f6f8fa; }
   .ms-body--market .ms-logo-container {
     z-index: 1;
     display: block;
@@ -7764,9 +7764,9 @@ section.ms-market {
       z-index: 0;
       background: transparent; }
       section.ms-market #app .navbar.navbar--account .navbar-end {
-        padding-right: 0.75rem; }
+        padding-right: 40px; }
         section.ms-market #app .navbar.navbar--account .navbar-end .navbar-item {
-          padding-right: 0.25rem; }
+          padding-right: 10px; }
         section.ms-market #app .navbar.navbar--account .navbar-end .tags .tag {
           font-size: 0.85rem; }
           section.ms-market #app .navbar.navbar--account .navbar-end .tags .tag.is-label {
@@ -7815,13 +7815,13 @@ section.ms-market {
         section.ms-market #app .ms-content-registry .level .level-item .heading {
           font-weight: bold; }
         section.ms-market #app .ms-content-registry .level .level-item .button {
-          background-color: #00edb8;
+          background-color: #83f;
           border-radius: 4px;
           padding: 1.5rem 2.5rem; }
           section.ms-market #app .ms-content-registry .level .level-item .button .icon,
           section.ms-market #app .ms-content-registry .level .level-item .button .icon:hover, section.ms-market #app .ms-content-registry .level .level-item .button:hover, section.ms-market #app .ms-content-registry .level .level-item .button.is-hovered {
             font-size: 1.25rem;
-            color: #309; }
+            color: #fff; }
       section.ms-market #app .ms-content-registry .ms-content-registry__admin {
         font-family: Courier, monospace;
         background-color: #fff;
@@ -7867,13 +7867,13 @@ section.ms-market {
               padding-bottom: 1rem;
               margin-bottom: 0; }
             section.ms-market #app .ms-content-registry .ms-content-display .column.is-one-third .card.is-placeholder {
-              background-color: #96f;
+              background-color: #83f;
               color: #fff;
               font-size: 0.9rem; }
         section.ms-market #app .ms-content-registry .ms-content-display .panel .panel-heading,
         section.ms-market #app .ms-content-registry .ms-content-display .panel .panel-tabs,
         section.ms-market #app .ms-content-registry .ms-content-display .panel .panel-block {
-          border-color: #309; }
+          border: 2px solid #e8e8e8; }
         section.ms-market #app .ms-content-registry .ms-content-display .panel .panel-heading {
           background-color: #309;
           border: none;
@@ -7928,8 +7928,7 @@ section.ms-market {
             padding-right: 1.65rem; }
           section.ms-market #app .ms-market-display .ms-market-display__sell .ms-market-display__sell__buttons button.ms-mint {
             margin-right: 2.5px;
-            background: #00edb8;
-            color: #309; }
+            background-color: #83f; }
           section.ms-market #app .ms-market-display .ms-market-display__sell .ms-market-display__sell__buttons button.ms-manage {
             margin-left: 2.5px; }
         section.ms-market #app .ms-market-display .ms-market-display__sell .ms-balanceof {
@@ -7999,18 +7998,9 @@ section.ms-market {
           padding: 1rem 2rem;
           color: #83f;
           border: 1px solid #83f; }
-          section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auctions .button.is-loading.is-warning,
-          section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auctions .button.ms-load-more.is-warning {
-            border: none; }
         section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items {
           margin-left: -20px;
-          margin-right: -20px;
-          /* Flex layout */
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: center;
-          align-content: center;
-          align-items: center; }
+          margin-right: -20px; }
           section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item--no-items {
             color: #309;
             font-size: 1rem;
@@ -8018,50 +8008,28 @@ section.ms-market {
             text-align: left;
             width: 100%; }
           section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item {
-            /* Flex layout */
-            flex: 1 1 auto;
-            align-self: auto;
-            min-width: 325px;
-            max-width: 500px;
-            margin-bottom: 60px;
-            position: relative; }
-            section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item:first-child {
-              margin-left: 0; }
-            section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item.ms-user-is-owner .ms-item__inner h4 {
-              border-left: 0.5rem solid #00edb8; }
-            section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item.ms-user-is-owner .ms-item__inner .button {
-              background-color: #00edb8;
-              color: #309; }
+            background: #fff;
+            border: 2px solid #e8e8e8;
+            border-bottom: none; }
             section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item .ms-item__inner {
-              background: #fff;
-              box-shadow: 2px 2px 10px #ccc;
-              margin-left: 20px;
-              margin-right: 20px;
-              padding: 10px; }
+              padding: 20px; }
             section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h4 {
-              position: absolute;
-              top: -26px;
-              left: 30px;
               font-size: 0.85rem;
               font-weight: bold;
               color: #003;
-              background: #f3f3f3;
               padding: 2px 10px; }
             section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h5, section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h6 {
+              color: #309;
               padding: 5px;
               text-transform: uppercase;
-              margin-bottom: 0.5rem;
-              color: #003; }
+              margin-bottom: 0.5rem; }
+              section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h5 span, section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h6 span {
+                color: #96f;
+                display: block;
+                font-size: 0.75rem; }
             section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h5 {
               font-size: 1rem;
-              background-color: #f3f3f3; }
-            section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h6 {
-              font-size: 1rem; }
-            section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h5 span, section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h6 span {
-              display: block;
-              font-size: 0.75rem;
-              text-transform: uppercase;
-              color: #666; }
+              background-color: #f6f8fa; }
             section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item h6.ms-auction-ends {
               margin-top: 0.5rem;
               margin-bottom: 0; }
@@ -8083,7 +8051,7 @@ section.ms-market {
   background-color: #fff;
   border: none;
   color: #309;
-  border: 1px solid #ccc; }
+  border: 2px solid #e8e8e8; }
   .modal .modal-card-head .modal-card-title,
   .modal .modal-card-body .modal-card-title,
   .modal .modal-card-foot .modal-card-title {
@@ -8095,7 +8063,7 @@ section.ms-market {
     .modal .modal-card-body .modal-card-title span,
     .modal .modal-card-foot .modal-card-title span {
       color: #309;
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 0;
       border-bottom: 1px solid #83f; }
   .modal .modal-card-head button.delete,
   .modal .modal-card-body button.delete,
@@ -8175,6 +8143,14 @@ section.ms-market {
 .modal .modal-card-foot {
   border-top: none;
   padding-top: 40px; }
+
+.ms-token-detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+  color: black; }
 
 .ms-content-registry__admin .modal p.fn {
   font-size: 1rem; }
@@ -8349,7 +8325,7 @@ section.ms-market {
       right: 20px;
       background: transparent;
       box-shadow: none;
-      background: #83f; }
+      background: #96f; }
       section.ms-market #app .navbar.navbar--account .navbar-end .ms-toggle-arrow i {
         color: #fff; }
   section.ms-market #app .ms-content-registry {
@@ -8369,7 +8345,6 @@ section.ms-market {
         position: fixed;
         bottom: 2rem;
         right: 2rem;
-        background: #309;
         border-radius: 10rem;
         margin: 0;
         padding: 0; }
@@ -8378,11 +8353,9 @@ section.ms-market {
           height: 3rem;
           border-radius: 10rem;
           padding: 2rem;
-          background: #309;
           border: none; }
           section.ms-market #app .ms-content-registry .level .level-item.level-item--button .button.is-primary .icon {
-            font-size: 2rem;
-            color: #00edb8; }
+            font-size: 2rem; }
     section.ms-market #app .ms-content-registry .ms-content-registry__admin {
       border: 1px solid #309; }
     section.ms-market #app .ms-content-registry .ms-content-display .column.is-one-third {
@@ -8453,8 +8426,7 @@ section.ms-market {
           flex: none;
           min-width: auto;
           max-width: 100%;
-          width: 100%;
-          margin-bottom: 80px; }
+          width: 100%; }
           section.ms-market #app .ms-market-display .ms-market-display__buy .ms-auction-items .ms-item .ms-item__inner {
             margin-left: 0;
             margin-right: 0; }
