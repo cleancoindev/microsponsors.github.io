@@ -8195,12 +8195,12 @@ section.ms-market {
     color: #00edb8;
     border-bottom: 3px solid #96f;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     letter-spacing: 0.05rem;
     font-weight: bold;
     color: #fff;
     line-height: 2.5rem;
-    border-bottom: 0.5px solid #83f; }
+    border-bottom: 1px solid #83f; }
     .footer .column.column--footer-links div.footer__link-container a.footer__link:hover, .footer .column.column--footer-links div.footer__link-container a.footer__link:active {
       background: transparent; }
     .footer .column.column--footer-links div.footer__link-container a.footer__link:active {
