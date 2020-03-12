@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>microsponsors.io: faq</title>
-    <meta name="description" content="FAQ. Microsponsors is a peer-to-peer sponsorship marketplace.">
+    <title>Microsponsors.io: FAQ</title>
+    <meta name="description" content="Microsponsors: FAQ">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="static/css/main.a5821eb6bc.css">
+    <link rel="stylesheet" href="static/css/main.9817803020.css">
     <!-- Font Awesome -->
     <link rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -19,9 +19,13 @@
 
     <section class="ms-info-main">
       <div class="container">
-      <h1 class="ms-logo">
-        <img src="static/img/logo.svg" alt="microsponsors" />
-      </h1>
+
+      <div class="ms-logo-container">
+        <a href="/" class="ms-logo">
+          <img src="static/img/logo.svg" alt="microsponsors logo" />
+        </a>
+      </div>
+
       <h1 class="title is-1 is-size-2-mobile">FAQ</h1>
       <h2 class="title is-3 is-size-4-mobile">Intro</h2>
       <p>
@@ -46,32 +50,32 @@
       <p>A <a href="https://metamask.io" target="_blank">Metamask</a> wallet
       (we will support more wallets later).</a>
       <p>If you are a Creator (seller) of MSPT tokens, you will need a small amount of Ether (ETH) in your wallet to create tokens and accept bids.</p>
-      <p>If you are a Sponsor (buyer) of MSPT tokens, you will need bidding assets in your wallet: DAI or USDC stablecoins. </p>
+      <p>If you are a Sponsor (buyer) of MSPT tokens, you will need bidding assets in your wallet: DAI or USDC stablecoins, each of which represent about $1 USD. </p>
       <p>We'll add more bidding assets over time.</p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How do I register?</h3>
-      <p>Registration is easy and free. If you don't already have it, install the <a href="https://metamask.io" target="_blank">Metamask</a> wallet for Ethereum. From there, visit our website's Registry and you will be prompted to associate your Ethereum account with at least one type of content:<br /><br />
-        1/ web domain<br />
-        2/ web url<br />
-        3/ email address<br />
-        4/ social media account
+      <p>Registration is easy and free. It is required for anyone wishing to create MSPT (time slot) tokens. If you don't already have it, install the <a href="https://metamask.io" target="_blank">Metamask</a> wallet for Ethereum. From there, <a href="exchange.html?view=registry">visit our website's Registry</a> and you will be prompted to associate your Ethereum account with at least one type of content:<br /><br />
+        - web domain<br />
+        - web url<br />
+        - email address<br />
+        - social media account
       </p>
-      <p>You may associate as many pieces of content with your Ethereum account as you like. We recommend using a separate Ethereum account for your Microsponsors activity. We will add more content types over time. Let us know what you want to use!
+      <p>You may associate as many pieces of content with your Ethereum account as you like. We recommend using a separate Ethereum account for your Microsponsors activity (all Registry data is public). We will add more content types over time. Let us know what you want to use!
       </p>
       <p>
-      Follow the instructions for verifying each type of content. Once we verify your content, the association between it and your Ethereum account will be written to our on-chain Proof-of-Content registry that is public, open data for anyone to see. You may remove any of your verified content at any time.
+      Follow the instructions for verifying each type of content. Once we verify your content, you will be able to create ("mint") MSPT tokens. You may remove any of your verified content at any time.
       </p>
 
-      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What exactly is an MSPT token?</h3>
-      <p>Each MSPT token represents a time slot. Each token is tied to a piece of validated content associated with an Ethereum account registered with Microsponsors (it can be a web domain, a url, an email address or a social media account).
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What exactly is an <span class="is-uppercase">MSPT</span> token?</h3>
+      <p>An MSPT token represents a time slot. Each MSPT is tied to a piece of validated content claimed by a Creator and associated with their Ethereum account in the Microsponsors Registry. Validated content can be a web domain, a url, an email address or a social media account.
       <p>
-      Each token consists of the following data:
+      An MSPT token consists of the following on-chain data fields:
       </p>
       <p class="ms-time-slot">
         <em>{</em>
         &nbsp;&nbsp;minter, <span class="ms-detail">ethereum address of the token's creator</span><br />
         &nbsp;&nbsp;owner, <span class="ms-detail">ethereum address of the token's current owner</span><br />
-        &nbsp;&nbsp;contentId, <span class="ms-detail">the creator's web domain, url, social media account or email</span> <br />
+        &nbsp;&nbsp;contentId, <span class="ms-detail">the creator's registered, validated content</span> <br />
         &nbsp;&nbsp;propertyName, <span class="ms-detail">short re-usable description of time slot</span><br />
         &nbsp;&nbsp;startTime, <span class="ms-detail">timestamp; when the time slot begins</span><br />
         &nbsp;&nbsp;endTime, <span class="ms-detail">timestamp; when the time slot ends</span><br />
@@ -83,6 +87,17 @@
       </p>
       <p>Each MSPT token you create will automatically go to auction on this website. There is currently a grace period of 24 hours enforced between the end of the auction and the beginning of the time slot.</p>
 
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How much do tokens cost?</h3>
+      <p>Each Microsponsors MSPT token is unique and has its own value which will be determined by the open market based on a variety of factors, including the reputation of the seller.
+      </p>
+      <p>When bidding on MSPTs, it is important to consider the past history of the seller in evaluating whether they are a trustworthy counterparty. Each individual MSPT has a "Comments" section which you can use to communicate with the seller. Use this feature to also look through comments on the seller's past token sales. You may also use the links in the token listing to sort by Creator/Sponsor and see their past activity.
+      </p>
+
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What exactly happens when I place a bid?</h3>
+      <p>By the time you place your bid, you have looked at the seller's past activity and determined that they are a trustworthy counterparty for your bid. Maybe you've even communicated with them directly about the time slot using the "Comments" feature on each token.</p>
+      <p>When you place your bid, the Microsponsors app generates a "bid order" using the <a href="https://0x.org" target="_blank">0x Protocol</a>, and you are prompted to "sign" it using your wallet in order to verify its authenticity. Your bid is added to the 0x Protocol's network and broadcast to other users ("peers") in the network. There is no fee for bidding on tokens.</p>
+      <p>When the seller chooses your bid, they click the "Accept Bid" button to end the auction. The 0x Protocol executes the trade via smart contracts on the blockchain, exchanging the seller's MSPT (time slot) token for your bidding assets (stablecoins), in addition to deducting the relevant fees (see the next question for details about fees).</p>
+
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What are the fees?</h3>
       <p><em class="is-highlight">Registration</em> is free (we pay the "gas"). "Gas" is the term for transaction fees on the Ethereum network that are paid in ETH. Gas prices fluctuate but can be <a href="https://ethgasstation.info/" target="_blank">estimated with this tool</a> or with your wallet.</p>
       <p><em class="is-highlight">Minting.</em> Creating an MSPT token has a low fee currently set at 0.0001 ETH, in addition to the Ethereum network "gas" fee.</p>
@@ -91,26 +106,20 @@
       <p><em class="is-highlight">Auction Sales.</em> When the token Creator accepts a Sponsor's bid and ends an MSPT auction, there is a 1.5% fee to each side. The Creator also pays the Ethereum "gas" plus a small 0x Protocol transaction fee when they accept a winning bid. The 0x Protocol transaction fee is roughly the same as the Ethereum gas fee and is used to reward token buyers (Sponsors) for using the protocol.</p>
       <p>If you plan to do alot of Sponsoring (buying of MSPT tokens), you may want to skip down to the section: "How do I earn money using Microsponsors with the 0x Protocol?".</p>
 
-      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How much do tokens cost?</h3>
-      <p>Each Microsponsors MSPT token is unique and has its own value which will be determined by the market based on a variety of factors, including the reputation of the seller.
-      </p>
-      <p>When bidding on MSPTs, it is important to consider the past history of the seller in evaluating whether they are a trustworthy counterparty. Each individual MSPT has a "Comments" section which you can use to communicate with the seller. Use this feature to also look through comments on your counterparty's past token sales. You may also use the links in the token listing to sort by Creator/Sponsor and see their past activity.
-      </p>
-
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; Why do I need to register?</h3>
-      <p>If you intend to Create (aka "Mint") MSPT tokens and auction them, you need to register your account. If you only intend to buy and/or re-sell other people's tokens, you don't necessarily need to register.</p>
+      <p>If you intend to Create (aka "Mint") MSPT tokens and auction them, you need to register your account. If you only intend to buy and/or re-sell other people's tokens, you don't necessarily need to register, but it will probably help other users trust you more.</p>
       <p>Over time, we'll be adding more tools to help you enhance your reputation and get more out of your registered account.</p>
-      <p>During this initial phase, we'll be verifying accounts in a centralized process. Over time as we develop the tools necessary to automate this task, it may become possible to do this in a trustless manner with enforcement around clearly stated rules (ex: no malware, scams, ponzis, etc).</p>
+      <p>During this initial phase, we'll be verifying accounts in a centralized process. Over time as we develop the tools necessary to automate this task, it may become possible to do this in a trustless manner with enforcement around clearly stated rules.</p>
       <p>The centralized and subjective nature of this process at the moment is undesirable but necessary to begin with due to resource constraint. The most desirable outcome is a decentralized Federation based on open blockchain data so that different communities can create their rules around what they find acceptable (or not).
       </p>
       <p>Please skip to the "how do you plan to decentralize?" section below for more information, especially if you are a developer or part of an organization that would like to transact using MSPT in larger volumes as part of our Federation.</p>
-      <p>Microsponsors reserves the right to refuse registration for any reason at any time.
+      <p>Microsponsors reserves the right to refuse registration for any reason at any time. If a user is removed from the Microsponsors Registry, any tokens they created ("minted") become frozen and unable to trade.
       </p>
 
-      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How are tokens exchanged?</h3>
-      <p>When you transact with other Ethereum accounts using this website there is no middleman. When a token seller picks a winning bid by  clicking the "Accept Bid" button, the Creator's MSPT token is swapped for Sponsors' bidding asset through a series of smart contracts (code snippets) on the blockchain called the <a href="https://0x.org" target="_blank">0x Protocol</a>.
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How do I get a refund?</h3>
+      <p>When you transact with sellers on this website there is no middleman. Microsponsors' website is simply a bulletin board that faciliates auctions and trading (kind of like Craigslist).
       </p>
-      <p>This means there is no central entity between the buyer and the seller (except for the blockchain). This allows us to keep fees very low. It also means that there is no possible way for Microsponsors to intervene in token auctions or sales (including refunds). Everything must be negotiated between buyer and seller directly. Each token has a "Comments" feature you can use for communicating directly with one another.
+      <p>This means there is no central entity between the buyer and the seller (except for the blockchain). This allows us to keep fees very low. It also means that there is no way for Microsponsors to issue refunds. Everything must be negotiated between buyer and seller directly. Each token has a "Comments" feature you can use for communicating directly with one another.
       </p>
       <p>Outside of this website, MSPTs can be swapped in a variety of other venues. This is the power of open token standards like ERC-721 in Ethereum. Be mindful of using only applications which you know and trust to exchange MSPTs with other users.</p>
 
@@ -149,16 +158,16 @@
       <p>Microsponsors has several public Github repositories here: <a href="https://github.com/microsponsors" target="_blank">https://github.com/microsponsors</a>.
       </p>
       <p>
-      Each smart contract repository has a DEPLOYS.md file to help you find their addresses on each Ethereum network (mainnet and testnets).</p>
+      Each smart contract repository has a DEPLOYS.md file to help you find their addresses on each Ethereum network (Mainnet and Kovan testnet).</p>
       </p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; For developers: How can I build on top of Microsponsors?</h3>
-      <p>There are four main components you may wish to build on top of:</p>
+      <p>In the coming months we'll be publishing more tools to help developers integrate MSPT tokens into other applications. There are four main components you may wish to build on top of:</p>
       <p><a href="https://github.com/microsponsors/erc-721" target="_blank"><em>1. The MSPT token's smart contract</em> (Github link ↗)</a>. It implements a standard ERC-721 (Non-Fungible Token) interface with a few extra parameters and methods for getting and setting time slot info. These tokens also have simple transfer restrictions on them: every token Minter needs to have one piece of verified content in our Registry Contract, which can be queried by anyone. Each token's Minter can decide if they want to support secondary trading of each token they mint. Anyone can query the MSPT contract for each token's specific time slot and trading info.
       </p>
-      <p><a href="https://github.com/microsponsors/registry-contract" target="_blank"><em>2. The Registry smart contract</em> (Github link ↗)</a> is used to record user content verifications. Registry verification associates a piece of content (such as a website or social media account) with a user's Ethereum account. We use this Registry for validating minting and transfer restrictions on our MSPT time slot tokens. Anyone can query whether an account is authorized to exchange MSPT tokens by simply calling this contract's public `isWhitelisted(account)` function before the trade.</p>
-      <p><a href="https://github.com/microsponsors/registry-contract#path-to-federation" target="_blank"><em>3. Federate with Microsponsors</em> (Github link to more info ↗</a>). If you are an organization that wishes to spin up your own MSPT marketplace or exchange with its own participants and rules around registration, content, etc., this is probably your best option. It would be a good fit for exchanges, content platforms, media companies, agencies, etc. Get in touch with us by emailing hello [at] microsponsors.io. Implementation <a href="https://github.com/microsponsors/test-contract-relay" target="_blank">details are in Github here ↗</a></p>
-      <p><a href="https://0x.org/zrx/staking" target="_blank"><em>3. Staking on the 0x Protocol.</em></a> Scroll up to the section above, "How can I earn crypto using Microsponsors with the 0x Protocol?". This is a great option for Sponsors in particular, as the 0x Protocol is designed to reward them specifically.</p>
+      <p><a href="https://github.com/microsponsors/registry-contract" target="_blank"><em>2. The Registry smart contract</em> (Github link ↗)</a> is used to record user content verifications. Registry verification associates a piece of content (such as a website or social media account) with a user's Ethereum account. We use this Registry for validating minting and transfer restrictions on our MSPT time slot tokens. Anyone can query whether an account is authorized to exchange MSPT tokens by simply calling this contract's public query methods.</p>
+      <p><a href="https://github.com/microsponsors/registry-contract#path-to-federation" target="_blank"><em>3. Federate with Microsponsors</em> (Github link to more info ↗</a>). If you are an organization that wishes to spin up your own MSPT marketplace or exchange with its own participants and rules around registration, content, etc., this is probably your best option. It would be a good fit for exchanges, content platforms, freelancing hubs, agencies, media companies, charity organizations, etc. Get in touch with us by emailing hello [at] microsponsors.io.</p>
+      <p><a href="https://0x.org/zrx/staking" target="_blank"><em>4. Staking on the 0x Protocol.</em></a> Scroll up to the section above, "How can I earn crypto using Microsponsors with the 0x Protocol?". This is a great option for Sponsors in particular, as the 0x Protocol is designed to reward them specifically.</p>
 
       </div>
     </section>
@@ -229,6 +238,6 @@
   <!-- *** VERSION INFO *** -->
 </html>
  <!-- VERSION
-git branch: master
-git sha: 85c0a364fe286c56afc42b2d377d962b08ae2c71
+git branch: prelaunch-mainnet
+git sha: 5ef3226122d61634e9b58a6fd338c60c14427cad
  -->
