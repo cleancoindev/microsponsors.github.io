@@ -10513,10 +10513,12 @@ section.ms-exchange-page {
                 order: 1; } }
 
 @media screen and (max-width: 500px) {
+  .ms-body--index .hero .hero-body h1.title {
+    margin-top: 1.5rem; }
   .ms-body--index .hero .hero-body .container.ms-container--buttons {
     padding-top: 40px; }
   .ms-body--index .hero .hero-body .container.ms-container--howthisworks {
-    bottom: 10vh; }
+    bottom: 12.5vh; }
   section.ms-exchange-page #app .navbar.navbar--account .navbar-end .navbar-item .tags {
     display: -webkit-box;
     display: -ms-flexbox;
