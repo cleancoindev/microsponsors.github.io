@@ -49,7 +49,7 @@
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What do I need to get started?</h3>
       <p>A <a href="https://metamask.io" target="_blank">Metamask</a> wallet
       (we will support more wallets later).</a>
-      <p>If you are a Creator (seller) of MSPT tokens, you will need a small amount of Ether (ETH) in your wallet to create tokens and accept bids.</p>
+      <p>If you are a Creator (seller) of MSPT tokens, you will need a small amount of Ether (ETH) in your wallet to create tokens and select bids.</p>
       <p>If you are a Sponsor (buyer) of MSPT tokens, you will need bidding assets in your wallet: DAI or USDC stablecoins, each of which represent about $1 USD. </p>
       <p>We'll add more bidding assets over time.</p>
 
@@ -96,7 +96,7 @@
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What exactly happens when I place a bid?</h3>
       <p>By the time you place your bid, you have looked at the seller's past activity and determined that they are a trustworthy counterparty for your bid. Maybe you've even communicated with them directly about the time slot using the "Comments" feature on each token.</p>
       <p>When you place your bid, the Microsponsors app generates a "bid order" using the <a href="https://0x.org" target="_blank">0x Protocol</a>, and you are prompted to "sign" it using your wallet in order to verify its authenticity. Your bid is added to the 0x Protocol's network and broadcast to other users ("peers") in the network. There is no fee for bidding on tokens.</p>
-      <p>When the seller chooses your bid, they click the "Accept Bid" button to end the auction. The 0x Protocol executes the trade via smart contracts on the blockchain, exchanging the seller's MSPT (time slot) token for your bidding assets (stablecoins), in addition to deducting the relevant fees (see the next question for details about fees).</p>
+      <p>When the seller chooses your bid, they click the "Select Bid" button to end the auction. The 0x Protocol executes the trade via smart contracts on the blockchain, exchanging the seller's MSPT (time slot) token for your bidding assets (stablecoins), in addition to deducting the relevant fees (see the next question for details about fees).</p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What are the fees?</h3>
       <p><em class="is-highlight">Registration</em> is free (we pay the "gas"). "Gas" is the term for transaction fees on the Ethereum network that are paid in ETH. Gas prices fluctuate but can be <a href="https://ethgasstation.info/" target="_blank">estimated with this tool</a> or with your wallet.</p>
@@ -106,9 +106,17 @@
       <p><em class="is-highlight">Auction Sales.</em> When the token Creator accepts a Sponsor's bid and ends an MSPT auction, there is a 1.5% fee to each side. The Creator also pays the Ethereum "gas" plus a small 0x Protocol transaction fee when they accept a winning bid. The 0x Protocol transaction fee is roughly the same as the Ethereum gas fee and is used to reward token buyers (Sponsors) for using the protocol.</p>
       <p>If you plan to do alot of Sponsoring (buying of MSPT tokens), you may want to skip down to the section: "How do I earn money using Microsponsors with the 0x Protocol?".</p>
 
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; Do I have to select a bid when my auction ends?</h3>
+      <p>Absolutely not. You're under no obligation to select a bid, and the system will not auto-select a bid for you. You are in control of who you choose to transact with (or not).</p>
+
+      <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; Do I have to auction my token?</h3>
+      <p>
+      Many users may only wish to mint time slots and use them elsewhere in a different way. Because they are ERC-721 standard tokens, you can simply mint a token and use the standard functions (for example: transfer) to interact with other users or smart contracts in the ecosystem.
+      </p>
+
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; What is "gas" and what does increasing the "gas price" do?</h3>
       <p>"Gas" is the term for transaction fees on the Ethereum network that are paid in ETH. "Gas prices" fluctuate with network usage: the more usage the network gets, the higher the price of gas for your transaction. You can set a higher gas price for your transaction to get it processed faster during times of increased network activity.</p>
-      <p>Most of the time when you use Microsponsors with MetaMask, you can use the controls inside of MetaMask to adjust the gas price. The one exception is when an MSPT token Creator clicks "Accept Bid" to end an auction. There is a warning in the confirmation modal to remind you that you cannot adjust the gas price in MetaMask or the transaction will likely fail. Instead, you may click on the "Advanced" controls inside of the confirmation modal to adjust the gas price.</p>
+      <p>Most of the time when you use Microsponsors with MetaMask, you can use the controls inside of MetaMask to adjust the gas price. The one exception is when an MSPT token Creator clicks "Select Bid" to end an auction. There is a warning in the confirmation modal to remind you that you cannot adjust the gas price in MetaMask or the transaction will likely fail. Instead, you may click on the "Advanced" controls inside of the confirmation modal to adjust the gas price.</p>
       <p>For all other transaction types, you may adjust the gas price directly in MetaMask.</p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; Why do I need to register?</h3>
@@ -124,7 +132,7 @@
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How do I get a refund?</h3>
       <p>When you transact with sellers on this website there is no middleman. Microsponsors' website is simply a bulletin board that faciliates auctions and trading (kind of like Craigslist).
       </p>
-      <p>This means there is no central entity between the buyer and the seller (except for the blockchain). This allows us to keep fees very low. It also means that there is no way for Microsponsors to issue refunds. Everything must be negotiated between buyer and seller directly. Each token has a "Comments" feature you can use for communicating directly with one another.
+      <p>This means there is no central entity between the buyer and the seller (except for the blockchain). This allows us to keep fees very low. It also means that there is no way for Microsponsors to issue refunds. Refunds must be negotiated between buyer and seller directly. Each token has a "Comments" feature you can use for communicating directly with one another and keeping a record of what was agreed upon. The comments section for each token is written to IPFS via <a href="https://3Box.io" target="_blank">3Box.io</a>, and is immutable and cannot be edited and will not be deleted.
       </p>
       <p>Outside of this website, MSPTs can be swapped in a variety of other venues. This is the power of open token standards like ERC-721 in Ethereum. Be mindful of using only applications which you know and trust to exchange MSPTs with other users.</p>
 
@@ -136,25 +144,27 @@
       <p>
       We are currently waiting on the 0x Protocol to implement the type of fee splitting that will support our Referral program. For now, when your friends register using your Referral link, we will record it on the blockchain. And when 0x fee-splitting is ready, we will update our integration and you will begin to collect your Referral fees (expected delivery is end of Q2 2020).
       </p>
-      <p>Once it is fully implemented, Referral Fees will be paid directly to the Referrer's Ethereum account at the time of sale using the 0x Protocol (no waiting around -- isn't that cool?!). These referral fees will only apply for transactions on this website. Other venues may choose to implement their own referral programs, or none at all.</p>
+      <p>Once it is fully implemented, Referral Fees will be paid directly to the Referrer's Ethereum account at the time of sale using the 0x Protocol (no waiting around -- isn't that cool?!). These referral fees will only apply to auctions on this website. Other venues may choose to implement their own referral programs, or none at all.</p>
       <p>We reserve the right to change the rules of the referral program at any time to incentivize new/ different behaviors as things evolve.</p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How can I earn crypto using Microsponsors with the 0x Protocol?</h3>
-      <p>Microsponsors is built on top of the 0x Protocol which uses a token called "ZRX". It incentivizes users to "stake" ZRX tokens and rewards them (in ETH) for using the 0x protocol when they buy any kind of token.
+      <p>Microsponsors is built on top of the <a href="https://0x.org" target="_blank">0x Protocol's</a> off-chain auction bidding and on-chain atomic swap functionality. Users are charged a small 0x Protocol transaction fee denominated in ETH when they buy or sell a Microsponsors token thru our auctions. The 0x Protocol incentivizes users to "stake" ZRX tokens and rewards them in ETH collected from these protocol fees. The more ZRX you stake, the more the protocol rewards you will collect.
       </p>
-      <p>This means that if you plan to do alot of token purchases through Microsponsors, you have the option to form a staking pool in order to maximize your share of the 0x protocol reward. The more ZRX your pool stakes, the larger your protocol reward will be.</p>
+      <p>This means that if you plan to do alot of token purchases through Microsponsors, you have the option to form a ZRX staking pool in order to maximize your share of the 0x protocol reward. To begin, you can also just join an existing staking pool. The more ZRX your staking pool stakes, the larger your protocol reward will be.</p>
       <p>The best place to start for now is on the <a href="https://0x.org/zrx/staking" target="_blank">ZRX staking dashboard</a> available here.</p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How do you plan to decentralize?</h3>
+      <p>In terms of ownership and governance, the most resilient strategy for the long term is to create a large and diverse coalition of stakeholders who share ownership. In the interest of integrity and having the most positive outcome, we're going to work towards product-market fit and building community first, and then probably tokenize ownership via a DAO. Join our <a href="https://discord.gg/j58SaNe">Discord</a> if you're interested.
+      </p>
       <p>Microsponsors MSPT tokens have been designed to Federate with other organizations who wish to run their own Registries with their own desired rules and set(s) of participants. Please get in touch if you think your organization is a good fit. Email hello [at] microsponsors.io
       </p>
       <p>Federation implementation <a href="https://github.com/microsponsors/test-contract-relay" target="_blank">details are in Github here ↗</a>.
       </p>
-      <p>In terms of ownership and governance, the most resilient strategy for the long term is to create a large and diverse coalition of stakeholders who share ownership.
-      </p>
 
       <h3 class="title is-5 is-size-6-mobile ms-title__q">&gt; How can I send feedback?</h3>
-      <p>Feedback is welcome and the best channel is email to hello [at] microsponsors.io
+      <p>Feedback is welcome and the best channel is email to hello [at] microsponsors.io</p>
+      <p>
+      You can also join our <a href="https://discord.gg/j58SaNe">Discord</a>.
       </p>
       <p>This is experimental software that will change and evolve over time depending on the needs and desires of the community using it, so get in touch!
       </p>
