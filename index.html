@@ -8,7 +8,7 @@
     <meta name="description" content="Microsponsors: Time is your greatest asset.">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.microsponsors.io/static/css/main.193ae71b4e.css">
+    <link rel="stylesheet" href="https://cdn.microsponsors.io/static/css/main.8c2a114bbd.css">
     <!-- Font Awesome -->
     <link rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -49,50 +49,66 @@
           </div>
         </div> <!-- /.container -->
         <div class="container">
-          <h1 class="title is-2 is-size-4-mobile">
+          <h1 class="title is-2 is-size-5-mobile">
             Time is your greatest asset.
           </h1>
-          <h2 class="title is-4 is-size-6-mobile">
-            Create and auction time slots to monetize your
+          <h2 class="title is-4 is-size-7-mobile">
+            Create + auction time slots for your
             <span id="ms-hero-content-type">podcast.</span>
           </h2>
         </div> <!-- /.container -->
-        <div class="container ms-container--buttons">
-          <!--
-          <a href="https://discord.gg/j58SaNe"
-            class="button is-primary is-medium is-emphasized is-orange">
-            Join our Discord
-            &nbsp;<i class="fas fa-chevron-right"></i>
-          </a>
-         -->
-          <a href="exchange.html?view=registry"
-            class="button is-primary is-green is-medium is-emphasized">
-            Register
-            &nbsp;<i class="fas fa-chevron-right"></i>
-          </a>
-          <a href="exchange.html"
-            class="button is-primary is-medium is-inverse is-emphasized">
-            Sell, Buy and Browse
-            &nbsp;<i class="fas fa-chevron-right"></i>
-          </a>
-          <div class="ms-featured is-5 is-size-7-mobile">
-            Featured categories:
-            <br />
-            <a href="decentraland.html">
-              Decentraland builders &rarr;
-            </a>
-            <br />
-            <a href="defi.html">
-              DeFi &rarr;
-            </a>
-            <br />
-            <a href="art.html">
-              Art &rarr;
-            </a>
-          </div>
-        </div>
+
+        <div class="container ms-quickstart">
+
+          <div class="columns">
+
+            <div class="ms-quickstart__sponsors column is-6">
+              <h3 class="ms-quickstart__heading">I am a Sponsor:</h3>
+              <a href="exchange.html"
+                class="button is-primary is-medium is-blue is-emphasized">
+                Browse &amp; Buy
+                &nbsp;<i class="fas fa-chevron-right"></i>
+              </a>
+              <div class="ms-quickstart__links is-5 is-size-7-mobile">
+                Featured creators:
+                <br />
+                <a href="decentraland.html">
+                  Decentraland Builders &rarr;
+                </a>
+                <br />
+                <a href="defi.html">
+                  DeFi Marketing &rarr;
+                </a>
+                <br />
+                <a href="art.html">
+                  Art &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="column is-2">&nbsp;</div>
+
+            <div class="ms-quickstart__creators column is-4">
+              <h3 class="ms-quickstart__heading">I am a Creator:</h3>
+              <a href="exchange.html?view=registry"
+                class="button is-primary is-green is-medium is-emphasized">
+                Register
+                &nbsp;<i class="fas fa-chevron-right"></i>
+              </a>
+              <div class="ms-quickstart__links is-5 is-size-7-mobile">
+                Manage:
+                <br />
+                <a href="exchange.html?view=auctions&sort=auctionsofusercurrent">
+                  Your auctions &rarr;
+                </a>
+              </div>
+            </div>
+
+          </div> <!-- /.columns -->
+        </div> <!-- /.container -->
+
         <div class="container ms-container--howthisworks">
-          <p class="is-5 is-size-7-mobile">How it works</p>
+          <p class="is-5 is-size-7-mobile">How this works</p>
           <a href="javascript: void(0);"
             class="button is-primary is-inverse is-icon-only"
                 id="ms-btn-more-details">
@@ -108,13 +124,6 @@
         <div class="ms-full">
           <a href="https://www.youtube.com/watch?v=I0vQAFoWmDY" target="_blank">
             <img src="static/img/how-it-works-youtube2.png" alt="how it works video on youtube" />
-          </a>
-        </div>
-        <div class="ms-full">
-          <a href="exchange.html?view=registry"
-            class="button is-primary is-green is-medium is-emphasized">
-            Register Now
-            &nbsp;<i class="fas fa-chevron-right"></i>
           </a>
         </div>
       </div>
@@ -300,6 +309,7 @@
         // Rotating words in Hero
         var $contentType = $('#ms-hero-content-type');
         var contentTypeArray = [
+          'website.',
           'freelancing.',
           'videos.',
           'game.',
@@ -350,5 +360,5 @@
 </html>
  <!-- VERSION
 git branch: master
-git sha: 4ce05fdd5b05bdce030cf0f5b61077e74a3ebaf2
+git sha: 08ab24927e1de93c9ba350d22747f6765546c9e1
  -->
