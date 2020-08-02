@@ -216,9 +216,9 @@
       <h3 class="title is-5 is-size-6-mobile ms-title__q">
         What happens when an auction ends?
       </h3>
-      <p>Bidding is open until the auction ends. Once the auction ends, no more bids are accepted. From that point, the Seller has 8 hours to choose a winning bid by clicking the "Select Bid" button in the auction listing.</p>
+      <p>Bidding is open until the auction ends. Once the auction ends, no more bids are accepted. From that point, the Seller has 16 hours to choose a winning bid by clicking the "Select Bid" button in the auction listing.</p>
       <p>There is no auto-selection of the highest bid at the end of an auction. This is so the Seller can always choose who to transact with (or not), and also because there may be factors other than price that influence a Seller's choice of winner.</p>
-      <p>When the Seller clicks the "Select Bid" button next to the winning bid, an instant trade is executed via smart contracts on the blockchain exchanging the Seller's MSPT (time slot) token for the winner's bid assets (stablecoins, etc). Fees are also deducted during this trade (see the question below for details).</p>
+      <p>When the Seller clicks the "Select Bid" button next to the winning bid, an instant trade is executed via smart contracts on the blockchain exchanging the Seller's MSPT (time slot) token for the winner's bid asset (DAI, USDC or custom token). Fees are also deducted during this trade (see the question below for details).</p>
 
       <a href="#top" class="is-block ms-external-link is-size-6 is-size-6-mobile" style="margin-left: 20px;">↑ TOP</a>
 
@@ -231,7 +231,7 @@
       <p><em class="is-highlight">Minting.</em> Creating an MSPT time slot has a low fee currently set at 0.0001 ETH, in addition to the Ethereum network "gas" fee.</p>
       <p><em class="is-highlight">Bidding</em> is free and happens off-chain (you just need to sign your bid via Metamask). There is no Ethereum gas fee for bids.</p>
       <p><em class="is-highlight">Cancelling bids</em> happens on-chain and you only need to pay the Ethereum gas fee for each cancel. Bids have an expiration date and time, they do not need to be canceled after they expire.</p>
-      <p><em class="is-highlight">Auction Sales.</em> When the token Creator selects a winning bid, there is a 1.5% fee to each side of the trade. The Creator also pays the Ethereum "gas" plus a small 0x Protocol transaction fee when they accept a winning bid. The 0x Protocol fee is roughly the same as the Ethereum gas fee.</p>
+      <p><em class="is-highlight">Auction Sales.</em> When the token Seller selects a winning bid, there is a 2.5% fee deducted from the winning bid. The Seller also pays the Ethereum "gas" plus a small 0x Protocol transaction fee. The 0x Protocol fee is roughly half the Ethereum gas fee.</p>
 
       <a href="#top" class="is-block ms-external-link is-size-6 is-size-6-mobile" style="margin-left: 20px;">↑ TOP</a>
 
@@ -417,5 +417,5 @@
 </html>
  <!-- VERSION
 git branch: master
-git sha: f9a254cba10a08d24cdf9ccb4b1d947c4cac84b1
+git sha: 4dc63c37acb56ff3b65f97d918ec38f5dc7144d1
  -->
